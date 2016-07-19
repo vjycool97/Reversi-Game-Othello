@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{AE4F2114-37EC-490E-A0D2-66630F3DD1E8}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>my_project</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutDialog.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Backup\AboutDialog.cs" />
+    <Compile Include="Backup\AssemblyInfo.cs" />
+    <Compile Include="Backup\Backup\AboutDialog.cs" />
+    <Compile Include="Backup\Backup\AssemblyInfo.cs" />
+    <Compile Include="Backup\Backup\Board.cs" />
+    <Compile Include="Backup\Backup\ConfirmDialog.cs" />
+    <Compile Include="Backup\Backup\Options.cs" />
+    <Compile Include="Backup\Backup\OptionsDialog.cs" />
+    <Compile Include="Backup\Backup\ProgramSettings.cs" />
+    <Compile Include="Backup\Backup\Reversi.cs" />
+    <Compile Include="Backup\Backup\SquareControl.cs" />
+    <Compile Include="Backup\Backup\Statistics.cs" />
+    <Compile Include="Backup\Backup\StatisticsDialog.cs" />
+    <Compile Include="Backup\Board.cs" />
+    <Compile Include="Backup\ConfirmDialog.cs" />
+    <Compile Include="Backup\Options.cs" />
+    <Compile Include="Backup\OptionsDialog.cs" />
+    <Compile Include="Backup\ProgramSettings.cs" />
+    <Compile Include="Backup\Reversi.cs" />
+    <Compile Include="Backup\SquareControl.cs" />
+    <Compile Include="Backup\Statistics.cs" />
+    <Compile Include="Backup\StatisticsDialog.cs" />
+    <Compile Include="Board.cs" />
+    <Compile Include="ConfirmDialog.cs" />
+    <Compile Include="Options.cs" />
+    <Compile Include="OptionsDialog.cs" />
+    <Compile Include="ProgramSettings.cs" />
+    <Compile Include="Reversi.cs" />
+    <Compile Include="SquareControl.cs" />
+    <Compile Include="Statistics.cs" />
+    <Compile Include="StatisticsDialog.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutDialog.resx">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Backup\AboutDialog.resx">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Backup\Backup\AboutDialog.resx">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Backup\Backup\ConfirmDialog.resx">
+      <DependentUpon>ConfirmDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Backup\Backup\OptionsDialog.resx">
+      <DependentUpon>OptionsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Backup\Backup\Reversi.resx">
+      <DependentUpon>Reversi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Backup\Backup\SquareControl.resx">
+      <DependentUpon>SquareControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Backup\Backup\StatisticsDialog.resx">
+      <DependentUpon>StatisticsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Backup\ConfirmDialog.resx">
+      <DependentUpon>ConfirmDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Backup\OptionsDialog.resx">
+      <DependentUpon>OptionsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Backup\Reversi.resx">
+      <DependentUpon>Reversi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Backup\SquareControl.resx">
+      <DependentUpon>SquareControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Backup\StatisticsDialog.resx">
+      <DependentUpon>StatisticsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfirmDialog.resx">
+      <DependentUpon>ConfirmDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionsDialog.resx">
+      <DependentUpon>OptionsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reversi.resx">
+      <DependentUpon>Reversi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SquareControl.resx">
+      <DependentUpon>SquareControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatisticsDialog.resx">
+      <DependentUpon>StatisticsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.ico" />
+    <Content Include="Backup\App.ico" />
+    <Content Include="Backup\Backup\App.ico" />
+    <Content Include="Backup\Backup\Reversi.csproj" />
+    <Content Include="Backup\Backup\Reversi.csproj.user" />
+    <Content Include="Backup\Backup\Reversi.sln" />
+    <Content Include="Backup\bin\Debug\Reversi.vshost.exe" />
+    <Content Include="Backup\Reversi.csproj" />
+    <Content Include="Backup\Reversi.csproj.user" />
+    <Content Include="Backup\Reversi.sln" />
+    <Content Include="Backup\UpgradeLog.htm" />
+    <Content Include="help files\menu.htm" />
+    <Content Include="help files\newGame.gif" />
+    <Content Include="help files\options.htm" />
+    <Content Include="help files\playing.htm" />
+    <Content Include="help files\redoAllMoves.gif" />
+    <Content Include="help files\redoMove.gif" />
+    <Content Include="help files\resignGame.gif" />
+    <Content Include="help files\resumePlay.gif" />
+    <Content Include="help files\reversi.htm" />
+    <Content Include="help files\rules.htm" />
+    <Content Include="help files\rulesFigure1.gif" />
+    <Content Include="help files\rulesFigure2.gif" />
+    <Content Include="help files\rulesFigure3.gif" />
+    <Content Include="help files\rulesFigure4.gif" />
+    <Content Include="help files\rulesFigure5.gif" />
+    <Content Include="help files\rulesFigure6.gif" />
+    <Content Include="help files\rulesFigure7.gif" />
+    <Content Include="help files\rulesFigure8.gif" />
+    <Content Include="help files\rulesFigure9.gif" />
+    <Content Include="help files\strategy.htm" />
+    <Content Include="help files\strategyFigure1.gif" />
+    <Content Include="help files\strategyFigure10.gif" />
+    <Content Include="help files\strategyFigure11.gif" />
+    <Content Include="help files\strategyFigure12.gif" />
+    <Content Include="help files\strategyFigure13.gif" />
+    <Content Include="help files\strategyFigure14.gif" />
+    <Content Include="help files\strategyFigure2.gif" />
+    <Content Include="help files\strategyFigure3.gif" />
+    <Content Include="help files\strategyFigure4.gif" />
+    <Content Include="help files\strategyFigure5.gif" />
+    <Content Include="help files\strategyFigure6.gif" />
+    <Content Include="help files\strategyFigure7.gif" />
+    <Content Include="help files\strategyFigure8.gif" />
+    <Content Include="help files\strategyFigure9.gif" />
+    <Content Include="help files\styles.css" />
+    <Content Include="help files\undoAllMoves.gif" />
+    <Content Include="help files\undoMove.gif" />
+    <Content Include="newGame.gif" />
+    <Content Include="redoAllMoves.gif" />
+    <Content Include="redoMove.gif" />
+    <Content Include="resignGame.gif" />
+    <Content Include="resumePlay.gif" />
+    <Content Include="undoAllMoves.gif" />
+    <Content Include="undoMove.gif" />
+    <Content Include="UpgradeLog.XML" />
+    <Content Include="_UpgradeReport_Files\UpgradeReport.css" />
+    <Content Include="_UpgradeReport_Files\UpgradeReport.xslt" />
+    <Content Include="_UpgradeReport_Files\UpgradeReport_Minus.gif" />
+    <Content Include="_UpgradeReport_Files\UpgradeReport_Plus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Backup\bin\Debug\Reversi.vshost.exe.manifest" />
+    <None Include="Backup\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="help files\figures.psp" />
+    <None Include="help files\Index.hhk" />
+    <None Include="help files\Reversi.chm" />
+    <None Include="help files\Reversi.hhp" />
+    <None Include="help files\Table of Contents.hhc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Backup\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

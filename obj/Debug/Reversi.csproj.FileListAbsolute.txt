@@ -1,0 +1,13 @@
+C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\bin\Debug\Reversi.exe
+C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\bin\Debug\Reversi.pdb
+C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\obj\Debug\Reversi.AboutDialog.resources
+C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\obj\Debug\Reversi.ConfirmDialog.resources
+C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\obj\Debug\Reversi.OptionsDialog.resources
+C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\obj\Debug\Reversi.ReversiForm.resources
+C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\obj\Debug\Reversi.SquareControl.resources
+C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\obj\Debug\Reversi.StatisticsDialog.resources
+C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\obj\Debug\Reversi.csproj.GenerateResource.Cache
+C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\obj\Debug\Reversi.exe
+C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\obj\Debug\Reversi.pdb
+E:\My Projects\Reversi_yo\obj\Debug\Reversi.exe
+E:\My Projects\Reversi_yo\obj\Debug\Reversi.pdb

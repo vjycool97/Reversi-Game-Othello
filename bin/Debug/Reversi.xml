@@ -1,0 +1,33 @@
+<ProgramSettings>
+  <Window>
+    <Left>324</Left>
+    <Top>114</Top>
+    <Width>726</Width>
+    <Height>562</Height>
+  </Window>
+  <Options>
+    <ShowValidMoves>True</ShowValidMoves>
+    <PreviewMoves>False</PreviewMoves>
+    <AnimateMoves>True</AnimateMoves>
+    <BoardColor>-16744448</BoardColor>
+    <ValidMoveColor>-16732160</ValidMoveColor>
+    <ActiveSquareColor>-16719872</ActiveSquareColor>
+    <MoveIndicatorColor>-65536</MoveIndicatorColor>
+    <FirstMove>-1</FirstMove>
+    <ComputerPlaysBlack>False</ComputerPlaysBlack>
+    <ComputerPlaysWhite>True</ComputerPlaysWhite>
+    <Difficulty>Intermediate</Difficulty>
+  </Options>
+  <Statistics>
+    <BlackWins>0</BlackWins>
+    <WhiteWins>2</WhiteWins>
+    <OverallDraws>0</OverallDraws>
+    <BlackTotalScore>20</BlackTotalScore>
+    <WhiteTotalScore>98</WhiteTotalScore>
+    <ComputerWins>2</ComputerWins>
+    <UserWins>0</UserWins>
+    <VsComputerDraws>0</VsComputerDraws>
+    <ComputerTotalScore>98</ComputerTotalScore>
+    <UserTotalScore>20</UserTotalScore>
+  </Statistics>
+</ProgramSettings>

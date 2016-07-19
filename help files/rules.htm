@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>Reversi Rules</title>
+<link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<h4>Reversi Rules</h4>
+
+<p>Reversi is a two-player strategy game played on an 8x8 board using discs that are colored white on one side and black on the other. One player plays the discs black side up while his opponent plays the discs white side up.</p>
+
+<h5>Object of the Game</h5>
+
+<p>The object of the game is to place your discs on the board so as to outflank your opponent's discs, flipping them over to your color. The player who has the most discs on the board at the end of the game wins.</p>
+
+<h5>Rules</h5>
+
+<p>Note: For convenience, board positions are denoted by a letter representing the column (A through H) and a number representing the row (1 through 8). For example, the top-left square on the board is referred to as A1 while the square to the right of it is referred to as B1.</p>
+
+<ol>
+	<li>
+		<p>Each player chooses a color to play (see <a href="options.htm">Setting Game Options</a>).</p>
+	</li>
+	<li>
+		<p>Every game starts with four discs placed in the center of the board, as shown in Figure 1.</p>
+
+		<div class="figure"><img src="rulesFigure1.gif" alt="Figure 1" width="144" height="144" /><br /><em>Figure 1</em></div>
+	</li>
+	<li>
+		<p>The players choose who goes first (see <a href="options.htm">Setting Game Options</a>).</p>
+	</li>
+	<li>
+		<p>Players take turns making moves. A move consists of a player placing a disc of his color on the board. The disc must be placed so as to outflank one or more opponent discs, which are then flipped over to the current player's color.</p>
+
+		<p>Outflanking your opponent means to place your disc such that it traps one or more of your opponent's discs between another disc of your color along a horizontal, vertical or diagonal line through the board square (see <a href="#notes">Notes</a> below).</p>
+
+		<p>Example: Starting with the initial game set up (Figure 1), suppose Black is to move first. He may place a disc at C4, D3, E6 or F5. Placing the disc at C4, as shown in Figure 2, Black flips over White's disc at D4 (Figure 3).</p>
+
+		<div class="figure"><img src="rulesFigure2.gif" alt="Figure 2" width="144" height="144" /><br /><em>Figure 2</em></div>
+
+		<div class="figure"><img src="rulesFigure3.gif" alt="Figure 3" width="144" height="144" /><br /><em>Figure 3</em></div>
+
+		<p>White moves next and may play C3, C5 or E3.</p>
+	</li>
+	<li>
+		<p>If a player cannot make a legal move, he forfeits his turn and the other player moves again (this is also known as passing a turn). Note that a player may not forfeit his turn voluntarily. If a player can make a legal move on his turn, he must do so.</p>
+	</li>
+	<li>
+		<p>The game ends when neither player can make a legal move. This includes when there are no more empty squares on the board or if one player has flipped over all of his opponent's discs (a situation commonly known as a wipeout).</p>
+	</li>
+	<li>
+		<p>The player with the most discs of his color on the board at the end of the game wins. The game is a draw if both players have the same number of discs.</p>
+	</li>
+</ol>
+
+<h5><a name="notes"></a>Notes</h5>
+
+<p>When making a move, you may outflank your opponent's discs in more than one direction. All outflanked discs are flipped.</p>
+
+<p>Example 1: In Figure 4, suppose White has the next move and plays E7 (Figure 5).</p>
+
+<div class="figure"><img src="rulesFigure4.gif" alt="Figure 4" width="144" height="144" /><br /><em>Figure 4</em></div>
+
+<div class="figure"><img src="rulesFigure5.gif" alt="Figure 5" width="144" height="144" /><br /><em>Figure 5</em></div>
+
+<p>With this move, White flips over Black's discs in four different directions: E4, E5, and E6; D6; F6 and D7. The result is shown in Figure 6.</p>
+
+<div class="figure"><img src="rulesFigure6.gif" alt="Figure 6" width="144" height="144" /><br /><em>Figure 6</em></div>
+
+<p>Note that while Black's disc at F5 is now outflanked by White's discs in two directions, it is not flipped. Only the opponent's discs that are directly outflanked by the disc being played are flipped.</p>
+
+<p>Example 2: Take a look at Figure 7. White moves by taking A5 (Figure 8).</p>
+
+<div class="figure"><img src="rulesFigure7.gif" alt="Figure 7" width="144" height="144" /><br /><em>Figure 7</em></div>
+
+<div class="figure"><img src="rulesFigure8.gif" alt="Figure 8" width="144" height="144" /><br /><em>Figure 8</em></div>
+
+<p>This flips Black's disc at B5 (Figure 9), but the discs at D5, E5 and F5 are not flipped because they were not directly outflanked by White's move to A5.</p>
+
+<div class="figure"><img src="rulesFigure9.gif" alt="Figure 9" width="144" height="144" /><br /><em>Figure 9</em></div>
+
+<p>For tips on playing effectively, see the <a href="strategy.htm">Strategy Guide</a>.</p>
+
+<div>
+	<object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+		<param name="Keyword" value="end game" />
+		<param name="Keyword" value="flip" />
+		<param name="Keyword" value="forfeit" />
+		<param name="Keyword" value="move" />
+		<param name="Keyword" value="outflank" />
+		<param name="Keyword" value="pass" />
+		<param name="Keyword" value="player" />
+		<param name="Keyword" value="rules" />
+		<param name="Keyword" value="score" />
+		<param name="Keyword" value="start game" />
+		<param name="Keyword" value="turn" />
+	</object>
+</div>
+
+</body>
+</html>

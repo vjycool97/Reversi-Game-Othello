@@ -1,0 +1,11 @@
+body
+{
+	font-family: "Microsoft Sans Serif", Arial, sans-serif;
+	font-size: 10pt;
+}
+
+div.figure
+{
+	margin-bottom: 1em;
+	text-align: center;
+}

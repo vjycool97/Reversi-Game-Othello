@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Reversi">
+</Property><Property Name="Solution File" Value="C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Reversi.sln">
+</Property><Property Name="Date" Value="Sunday, October 27, 2013">
+</Property><Property Name="Time" Value="8:39 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Reversi.sln" Description="File successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\Reversi.sln">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="Reversi.csproj" Description="Project file successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\Reversi.csproj">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="Reversi.csproj.user" Description="Project user file successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\Reversi.csproj.user">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="AboutDialog.cs" Description="File successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\AboutDialog.cs">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="Board.cs" Description="File successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\Board.cs">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="ConfirmDialog.cs" Description="File successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\ConfirmDialog.cs">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="Options.cs" Description="File successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\Options.cs">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="OptionsDialog.cs" Description="File successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\OptionsDialog.cs">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="ProgramSettings.cs" Description="File successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\ProgramSettings.cs">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="Reversi.cs" Description="File successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\Reversi.cs">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="SquareControl.cs" Description="File successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\SquareControl.cs">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="Statistics.cs" Description="File successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\Statistics.cs">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="StatisticsDialog.cs" Description="File successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\StatisticsDialog.cs">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="App.ico" Description="File successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="AboutDialog.resx" Description="File successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\AboutDialog.resx">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="ConfirmDialog.resx" Description="File successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\ConfirmDialog.resx">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="OptionsDialog.resx" Description="File successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\OptionsDialog.resx">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="Reversi.resx" Description="File successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\Reversi.resx">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="SquareControl.resx" Description="File successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\SquareControl.resx">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="StatisticsDialog.resx" Description="File successfully backed up as C:\Users\L\Documents\Visual Studio 2010\Projects\Reversi_yo\Backup\StatisticsDialog.resx">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="Reversi.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Reversi" Source="Reversi.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Reversi.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Reversi.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Reversi" Source="Reversi.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

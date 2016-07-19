@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>Playing Reversi</title>
+<link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<h4>Playing Reversi</h4>
+
+<h5>Starting a Game</h5>
+
+<p>Click on the <strong>New Game</strong> button <img src="newGame.gif" alt="New Game" width="16" height="16" /> on the tool bar or select <strong>Game &gt; New Game</strong> [<strong>Ctrl+N</strong>] from the menu bar to begin play.</p>
+
+<h5>Making Moves</h5>
+
+<p>The <strong>Current</strong> indicator to the right of the board shows the color of the player who has the current move. The status area at the bottom of the window will also indicate the current player.</p>
+
+<p>On your turn, you may make a move either by clicking on a board square with the mouse pointer or by typing the column letter (<strong>A</strong> - <strong>H</strong>) followed by the row number (<strong>1</strong> - <strong>8</strong>) on the keyboard. If the square you choose is not a legal move, it is ignored and you will have to select again (see <a href="rules.htm">Reversi Rules</a> for details).</p>
+
+<p>Once you or your opponent makes a move, the board will be updated and play continues with the next turn.</p>
+
+<h5>Undo/Redo Moves</h5>
+
+<p>You can undo the last move made by clicking on the <strong>Undo Move</strong> button <img src="undoMove.gif" alt="Undo Move" width="16" height="16" /> on the tool bar or selecting <strong>Move &gt; Undo Move</strong>  [<strong>Ctrl+Z</strong>] from the menu bar. Clicking on the <strong>Redo Move</strong> button <img src="redoMove.gif" alt="Redo Move" width="16" height="16" /> or selecting <strong>Move &gt; Redo Move</strong> [<strong>Ctrl+Y</strong>] will restore the last move undone.</p>
+
+<p>Both options can be used repeatedly to restore the game to any point in the current move history. You can also jump directly to the start of the game using the <strong>Undo All Moves</strong> button <img src="undoAllMoves.gif" alt="Undo All Moves" width="16" height="16" /> on the tool bar or by selecting <strong>Move &gt; Undo All Moves</strong>  [<strong>Ctrl+Shift+Z</strong>] from the menu bar. Likewise, you clicking on <strong>Redo All Moves</strong> button <img src="redoAllMoves.gif" alt="Redo All Moves" width="16" height="16" /> or selecting <strong>Move &gt; Redo All Moves</strong> [<strong>Ctrl+ShiftY</strong>] will restore all moves made so far.</p>
+
+<p>Note that when you undo/redo moves while playing against the computer, play is automatically suspended on the computer's turns. To resume play on the computer's turn, click on the <strong>Resume Play</strong> <img src="resumePlay.gif" alt="Resume Play" width="16" height="16" /> button or select <strong>Move &gt; Resume Play</strong> [<strong>Ctrl+P</strong>] from the menu bar and the computer will make it's move. To resume play on your turn, simply make a new move on the board. </p>
+
+<h5>Ending a Game</h5>
+
+<p>When the board is filled, or when neither player can make a legal move, the game is over and the outcome will be shown in the status area.</p>
+
+<p>You can resign a game at any time by clicking on the <strong>Resign Game</strong> button <img src="resignGame.gif" alt="Resign Game" width="16" height="16" /> on the tool bar or selecting <strong>Game &gt; Resign Game</strong> [<strong>Ctrl+R</strong>] from the menu bar. If you're playing against the computer, this awards the computer a win. When playing against another person, the opponent of the current player is awarded the win (see <a href="menu.htm#statistics">Statistics</a>). In both cases, the winner is assigned a score of 64-0.</p>
+
+<p>To start a new game, select <strong>New Game</strong> as described above.</p>
+
+<p>You can exit the program at any time by closing the window or selecting <strong>Game &gt; Exit</strong> [<strong>Ctrl+X</strong>] from the menu bar.</p>
+
+<div>
+	<object type="application/x-oleobject" classid="clsid:1e2a7bd0-dab9-11d0-b93a-00c04fc99f9e">
+		<param name="Keyword" value="computer" />
+		<param name="Keyword" value="end game" />
+		<param name="Keyword" value="exit" />
+		<param name="Keyword" value="keyboard" />
+		<param name="Keyword" value="move" />
+		<param name="Keyword" value="new game" />
+		<param name="Keyword" value="options" />
+		<param name="Keyword" value="play" />
+		<param name="Keyword" value="player" />
+		<param name="Keyword" value="redo move" />
+		<param name="Keyword" value="resign game" />
+		<param name="Keyword" value="resume play" />
+		<param name="Keyword" value="start game" />
+		<param name="Keyword" value="statistics" />
+		<param name="Keyword" value="turn" />
+		<param name="Keyword" value="undo move" />
+	</object>
+</div>
+</body>
+</html>

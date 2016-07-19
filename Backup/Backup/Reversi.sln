@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reversi", "Reversi.csproj", "{9F89DA23-39C3-4D6D-8847-7CD9A9F2A1A7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{9F89DA23-39C3-4D6D-8847-7CD9A9F2A1A7}.Debug.ActiveCfg = Debug|.NET
+		{9F89DA23-39C3-4D6D-8847-7CD9A9F2A1A7}.Debug.Build.0 = Debug|.NET
+		{9F89DA23-39C3-4D6D-8847-7CD9A9F2A1A7}.Release.ActiveCfg = Release|.NET
+		{9F89DA23-39C3-4D6D-8847-7CD9A9F2A1A7}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
